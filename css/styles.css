@@ -1,0 +1,131 @@
+body{
+    font-family:'Montserrat-Black', sans-serif ;
+}
+#title{
+    background-color: #ff4c68;
+    color:#fff;
+}
+.container-fluid{
+    padding:3% 15% 7%;
+
+}
+h1{
+    font-family: 'Montserrat-black ', sans-serif;
+    size:3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size:2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "montserrat-light",sans-serif;
+}
+.download-button{
+    margin:5% 3%  5% 0;
+}
+.title-image{
+    width:60%;
+    transform:rotate(25deg);
+    position: absolute;
+    right:30%;
+     
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position:relative;
+    
+}
+.feature-box{
+text-align:center;
+padding:5%;
+}
+h2{
+    font-family:"montserrat-Black",sans-serif ;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-size: 23px;
+    font-family: 'montserrat-bold',sans-serif;
+}
+p{
+    color: #8f8f8f;
+}
+.icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color:#ff4c68;
+}
+#testimonials{
+    
+    background-color: #ef8172;
+    text-align: center;
+    color:#fff;
+
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-image{
+    width:10%;
+    border-radius:100%;
+    margin:20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align:center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+.pricing-column{
+     padding: 3% 2%;
+}
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+     .title-image{
+        position: static ;
+        transform: rotate(0); 
+     }
+} 
+#cta{
+    background-color: #ff4c68;
+    text-align:center;
+    color: #fff;
+    padding: 7% 15%;
+}
+h4{
+    font-family: 'montserrat-bold',sans-serif;
+    font-size: 3.8rem;
+    line-height: 1.5;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.so-icon{
+    margin:20px 10px;
+}
